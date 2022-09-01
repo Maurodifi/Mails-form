@@ -24,3 +24,4 @@ app.listen(PORT, (err) =>{
 });
 
 app.use("/",require("./appRouter"));
+app.use("/form",require("./appRouter"))
